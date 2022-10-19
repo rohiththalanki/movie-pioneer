@@ -1,0 +1,169 @@
+.spinner {
+  width: 200px;
+  height: 200px;
+  background: white;
+  opacity: 0.5;
+  margin: auto;
+}
+
+.mainContainer {
+  padding-top: 100px;
+  background-image: url('../../assets/background.png');
+  background-repeat: repeat;
+}
+
+.innerContainer {
+  max-width: 1170px;
+  margin: auto  ;
+}
+
+.movieDetails {
+  
+  display: flex;
+  align-items: flex-start;
+  background: white;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 8%);
+  z-index: 200;
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    flex-wrap: wrap;
+  }
+}
+
+.movieContent {
+  height: 100%;
+  padding: 20px;
+  overflow: auto;
+  flex-grow: 1;
+}
+
+.section {
+  margin-bottom: 20px;
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}
+
+.moviePoster {
+  border-radius: 10px;
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    margin: auto;
+  }
+}
+
+.title {
+  font-size: 48px;
+  line-height: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #3d3d6b
+}
+
+.tagline {
+  font-size: 20px;
+  line-height: 110%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.movieMeta {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.overview {
+  font-size: 18px;
+  color: #94949a;
+}
+
+.dot {
+  padding: 0px 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.ratingSection {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+
+  .ratingIcon {
+    color: red;
+    font-size: 28px;
+  }
+
+  .voteAverage {
+    letter-spacing: 0.2px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 2px 0px 0px 8px;
+  }
+
+  .voteCount {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:  #00000073;
+    padding: 4px 0px 0px 8px;
+  }
+}
+
+.languages {
+  margin-top: 16px;
+}
+
+.companyLogo {
+  max-width: 200px;
+}
+
+.actionButton {
+  border: 1px solid #392F5A !important;
+  color: white !important;
+  background: #392F5A !important;
+  border-radius: 8px !important;
+  width: 180px;
+  margin-top: 24px;
+}
+
+.rateMovie {
+  border: 1px solid #392F5A;
+  padding: 16px;
+  border-radius: 5px;
+  margin: 24px 0;
+
+
+  .starRating {
+    margin-bottom: 10px;
+  }
+
+  .wordRating {
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+
+}

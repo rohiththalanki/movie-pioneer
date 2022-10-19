@@ -1,0 +1,57 @@
+.mainContainer {
+  padding-top: 100px;
+  background-image: url('../../assets/background.png');
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.moviesList {
+  max-width: 1170px;
+  text-align: center;
+  padding-bottom: 70px;
+  margin: auto;
+}
+
+.section {
+  text-align: left;
+  margin-bottom: 20px;
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+}
+
+.viewMore {
+  min-width: 160px;
+  height: 50px;
+  border-radius: 5px !important;
+  margin-top: 40px; 
+  border-color: #e8a31f !important;
+  color: #e8a31f !important;
+  margin-left: auto;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.searchbox {
+  height: 44px;
+  font-size: 15px;
+  font-weight: 400;
+  background: rgba(255,255,255,.2);
+  border-radius: 30px !important;
+}
+
+.searchbox:focus, .searchbox:hover {
+  border-color: #d9d9d9 !important;
+  box-shadow: none;
+}
+
+.ant-input-search-button:global {
+  border: none!important;
+}

@@ -1,0 +1,40 @@
+.container {
+  background: white;
+  width: 100%;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  z-index: 1000;
+  animation: moveDown___166Rj .5s ease-in-out;
+  background-color: #e8a31f;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 8%);
+}
+
+.navbar {
+  max-width: 1170px;
+  margin: auto;   
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink, .navLink:hover {
+  color: white;
+  text-transform: uppercase;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}

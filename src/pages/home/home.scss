@@ -1,0 +1,51 @@
+.homeContainer {
+    height: 100vh;
+    background-image: url('../../assets/movies.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    z-index: 99999;
+    background: black;
+    opacity: 0.74;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    max-width: 800px;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+    
+    .mainAction, .mainAction:hover {
+        color: white;
+        background: black;
+        border-color: white;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        min-width: 200px;
+        min-height: 50px;
+        margin-top: 40px;
+    }
+
+    .mainAction:hover {
+        box-shadow: 0 2px 0 white;
+    }
+}

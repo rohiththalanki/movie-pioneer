@@ -1,0 +1,36 @@
+.movieStatsContainer {
+    padding: 100px 0;
+    background-image: url('../../assets/background.png');
+    background-repeat: repeat;
+}
+
+.moviesStats {
+    max-width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bar {
+    fill: #e8a31f7a;
+}
+
+.chartContainer {
+    background: white;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 8%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tick text {
+    color: #231f20;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: none;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin: 30px 0;
+}
