@@ -7,7 +7,6 @@ export function fetchMoviesList(dispatch, data = {}) {
   if (isSearch) {
     url = getApiUrl('searchMovies') + `?api_key=${API_KEY}&query=${search}&page=${page}`;
   }
-  console.log(data);
   fetch(url)
     .then((data) => data.json())
     .then((data) => {

@@ -23,7 +23,6 @@ function getApiUrl(key, params = {}) {
       throw new Error(`Required param ${paramKey} not passed for ${url}`);
     return urlPart;
   });
-  console.log()
   return url;
 }
 

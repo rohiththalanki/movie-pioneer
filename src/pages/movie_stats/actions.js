@@ -7,7 +7,6 @@ export function fetchTopRatedMovies(dispatch) {
   fetch(url)
     .then((data) => data.json())
     .then((data) => {
-      console.log('data found', data);
       dispatch(saveMovies(data));
       return data.results;
     });
